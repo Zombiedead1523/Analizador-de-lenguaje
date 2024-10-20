@@ -1,0 +1,35 @@
+inicio
+int i_;
+int b_;
+int a_;
+int opcion_;
+int n_;
+
+while (opcion_ != 1)
+
+escribir "Ingrese n";
+leer n_;
+i_ = n_ % 2;
+
+
+if ( i_==0 )
+escribir "es par";
+
+for (a_ = 1; a_ ~ n_; a_++)
+b_ = a_ * 2;
+escribir b_;
+efor 
+eif
+
+if (i_==1 )
+escribir "es impar";
+for (a_ = 1; a_ ~ n_; a_++)
+b_ = a_ * 2;
+b_ = b_ - 1;
+escribir b_;
+efor 
+eif
+escribir "quieres volver a correrlo?, ingresa valor distinto de 1";
+leer opcion_;
+ewhile
+fin
